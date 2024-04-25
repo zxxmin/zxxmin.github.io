@@ -1,1 +1,13 @@
 // Custom styles.
+div.callout {
+    background-color: #f1f1ef;
+    border-radius: 8px;
+    padding: 16px 24px 16px 50px;
+    position: relative;
+
+    > span {
+        position: absolute;
+        top: 16px;
+        left: 24px;
+    }
+}
