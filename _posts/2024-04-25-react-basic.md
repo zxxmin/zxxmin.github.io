@@ -5,7 +5,7 @@ categories:
 - React
 ---
 
-컴포넌트, JSX, Props, 이벤트, State, 리렌더링, Ref, 리액트 훅 등 기본 기능을 알아보자<br />
+리액트의 기본! 컴포넌트, State, Ref, 리액트 훅<br />
 [한입 크기로 잘라먹는 리액트]
 
 # 컴포넌트
@@ -51,3 +51,56 @@ Header 처럼 App의 return 문에 포함된 컴포넌트 : **자식 컴포넌�
 컴포넌트는 부모-자식 관계(= 컴포넌트 트리)라는 계층 구조를 형성한다.
 컴포넌트 트리에서 App는 항상 최상위에 존재하므로 '루트 컴포넌트'라고 한다.
 
+# State
+동적인 리액트 컴포넌트를 만들기 위해 State 이용
+
+## useState
+함수 useState로 State를 생성
+{% highlight javascript linenos %}
+import { useState } from "react"
+
+const [ light, setLight ] = useState('off');
+{% endhighlight %}
+**light** : 현재 상태의 값을 저장하고 있는 **변수**. 이 변수를 **'State 변수'** 라고 지칭<br/>
+**setLight** : State 변수의 값을 변경하는, 상태를 업데이트 하는 **함수**. 이 함수를 **'set 함수'** 라고 지칭<br/>
+**useState** : 호출할 때 인수로 값을 전달하면 이 값이 State 초깃값
+
+# Ref
+Reference(참조)의 줄임말로, 돔(DOM) 요소를 직접 조작할 수 있음.
+
+## useRef
+{% highlight javascript linenos %}
+import { useRef } from "react"
+
+function Body() {
+    const textRef = useRef();
+
+    const onChangeText = (e) => {
+        textRef.current.value = "";
+    }
+
+    const onClickBtn = () => {
+        textRef.current.focus();
+    }
+
+    return (
+        <div>
+            <input type="text" ref={textRef} onChange={onChangeText} />
+            <button onClick={onClickBtn}>제출</button>
+        </div>
+    )
+}
+{% endhighlight %}
+
+# 리액트 훅 (React Hook)
+함수로 만든 리액트 컴포넌트에서 클래스로 만든 리액트 컴포넌트의 기능을 이용하도록 도와주는 함수들.<br/>
+리액트 훅은 이름 앞에 항상 **use**를 붙임.
+* useState
+* useRef
+* useEffect
+* useContext
+* useReducer
+* useCallback
+* useMemo
+
+등등이 있음.
