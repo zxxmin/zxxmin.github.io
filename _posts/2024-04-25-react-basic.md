@@ -15,7 +15,6 @@ categories:
 
 컴포넌트는 주로 JavaScript의 클래스나 함수를 이용해 만드는데, 클래스 컴포넌트를 만드는 방식은
 기본 설정 코드를 작성하는 등 함수로 만드는 컴포넌트에 비해 단점이 많아 선호하지 않는다.<br/>
-* 인프런 section 17 복습
 
 Hedaer.js
 {% highlight javascript linenos %}
@@ -81,6 +80,7 @@ State 값이나 set 함수를 여러 컴포넌트에서 사용하는 경우, 최
 Reference(참조)의 줄임말로, 돔(DOM) 요소를 직접 조작할 수 있음.
 
 ## useRef
+ref 객체 생성
 {% highlight javascript linenos %}
 import { useRef } from "react"
 
