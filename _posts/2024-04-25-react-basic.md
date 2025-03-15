@@ -107,12 +107,18 @@ function Body() {
 # 리액트 훅 (React Hook)
 함수로 만든 리액트 컴포넌트에서 클래스로 만든 리액트 컴포넌트의 기능을 이용하도록 도와주는 함수들.<br/>
 리액트 훅은 이름 앞에 항상 **use**를 붙임.
-* useState
-* useRef
-* useEffect
-* useContext
-* useReducer
-* useCallback
-* useMemo
+- **useState**<br/>
+가장 기본적인 Hook. **컴포넌트의 상태를 관리**
+- **useRef**<br/>
+**DOM에 직접 접근**할 때 사용. 변수 값이 변하더라도 **리렌더링 유발 방지**하고 싶을 때.
+- **useEffect**<br/>
+**컴포넌트 내의 상태 변화**가 있을 때, 이를 감지하여 특정 작업을 해줄 수 있는 훅.
+- **useCo**ntext
+- **useReducer**<br/>
+**다양한 상태를 다른 값으로 업데이트해주고 싶을 때** 사용하는 훅
+- **useCallback**<br/>
+**의존성 배열 내의 값이 변할 때** 재정의.
+- **useMemo**<br/>
+**특정 값이 변할 때**만 정의. 즉, **변수의 최적화**를 위한 훅.
 
 등등이 있음.

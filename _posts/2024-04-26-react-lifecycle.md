@@ -1,5 +1,5 @@
 ---
-title: useEffect
+title: Life Cycle
 date: 2024-04-26 00:00:01
 categories:
 - React
@@ -25,8 +25,8 @@ import { useEffect } from "react"
 useEffect(callback, [deps])
 {% endhighlight %}
 
-첫 번쨰 인수 : 콜백함수(callback), 두 번째 인수 : 의존성 배열(Dependency Array)<br/>
-두 번쨰 인수로 전달된 **의존성 배열의 값이 바뀌면 콜백함수가 실행**.
+첫 번째 인수 : 콜백함수(callback), 두 번째 인수 : 의존성 배열(Dependency Array)<br/>
+두 번째 인수로 전달된 **의존성 배열의 값이 바뀌면 콜백함수가 실행**.
 
 ## 업데이트(Update)
 두 번째 요소인 의존성 배열에 아무것도 전달하지 않으면, useEffect는 컴포넌트를 **렌더링할 때 마다** 콜백 함수를 실행.
