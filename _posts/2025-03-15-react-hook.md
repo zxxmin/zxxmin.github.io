@@ -1,11 +1,11 @@
 ---
 title: Hook🪝
-date: 2024-09-10 00:00:01
+date: 2024-04-27 00:00:01
 categories:
 - React
 ---
 
-함수형 컴포넌트에서 React state와 생명주기 기능을 연동할 수 있게 해주는 함수.<br/>
+함수형 컴포넌트에서 React State와 생명주기 기능을 연동할 수 있게 해주는 함수.<br/>
 [한입 크기로 잘라먹는 리액트]
 
 # Hook
@@ -16,7 +16,7 @@ Hook을 이용하여 기존 Class 바탕의 코드를 작성할 필요 없이 �
 Hook에는 리액트에서 제공하는 내장 훅 (useState, useEffect, ...)과 사용자가 직접 정의할 수 있는
 Custom Hooks가 있음.
 
-# Hook이 생기기 전
+## Hook이 생기기 전
 함수형 컴포넌트에 Hook이 나오기 전까지는 일반적으로 클래스형 컴포넌트를 많이 사용.<br/>
 하지만 클래스형 컴포넌트에서 상태(state)를 사용하고, 생명주기 메서드를 사용하는 방식은
 많은 문제들과 불편함을 가지고 있음.
@@ -27,12 +27,12 @@ Custom Hooks가 있음.
 3. Class 문법 자체의 어려움.<br/>
 → Class 함수에서의 this 개념
 
-# Hook이 생긴 후
+## Hook이 생긴 후
 1. 컴포넌트 간의 계층을 바꾸지 않고 상태 로직을 재사용할 수 있음.
 2. 하나의 컴포넌트를 생명주기가 아닌 기능을 기반으로 하여 작은 함수 단위로 나눌 수 있음.
 3. Class 문법 없이도 React 기능을 사용할 수 있게끔 해줌.
 
-# Hook 규칙
+## Hook 규칙
 1. 같은 훅을 여러 번 호출 가능
 ```javascript
 const Profile = () => {
@@ -65,7 +65,7 @@ export default function App() {
 }
 ```
 
-# Hook의 종류
+## Hook의 종류
 <img src="/assets/images/react/hook1.png">
 
 기본적으로 컴포넌트 상태를 관리할 수 있는 `useState`와 컴포넌트 생애 주기에 개입할 수 있는 `useEffect`,
