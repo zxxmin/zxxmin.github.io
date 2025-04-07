@@ -3,6 +3,8 @@ title: 리액트의 기본
 date: 2024-04-25 00:00:03
 categories:
 - React
+tags:
+- React
 ---
 
 리액트의 기본! 컴포넌트, State, Ref, 리액트 훅<br />

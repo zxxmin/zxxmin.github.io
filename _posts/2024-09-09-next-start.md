@@ -3,6 +3,8 @@ title: Next.js
 date: 2024-09-09 00:00:01
 categories:
 - Next
+tags:
+- Next
 ---
 
 React만을 위한 React 전용의 웹개발 프레임워크, 리액트를 보다 더 강력하고 편하게 사용할 수 있는 기능들을 제공한다.<br/>

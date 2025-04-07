@@ -3,6 +3,8 @@ title: useState
 date: 2024-04-28 00:00:01
 categories:
 - React
+tags:
+- React
 ---
 
 리액트 훅의 기본. 컴포넌트의 상태(state)를 관리할 수 있는 훅.<br/>

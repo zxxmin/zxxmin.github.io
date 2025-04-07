@@ -3,6 +3,8 @@ title: Life Cycle
 date: 2024-04-26 00:00:01
 categories:
 - React
+tags:
+- React
 ---
 
 라이프사이클(Life Cycle) :) 사람의 인생처럼 리액트 컴포넌트도 태어나고 사라지는 생애주기가 있다.<br/>
