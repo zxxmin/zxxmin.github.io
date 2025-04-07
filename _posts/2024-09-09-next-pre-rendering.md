@@ -1,5 +1,5 @@
 ---
-title: 사전 렌더링
+title: Pre Rendering
 date: 2024-09-09 00:00:02
 categories:
 - Next

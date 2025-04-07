@@ -1,5 +1,5 @@
 ---
-title: 리액트의 기본
+title: The Basics of React 📖
 date: 2024-04-25 00:00:03
 categories:
 - React
