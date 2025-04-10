@@ -1,6 +1,6 @@
 ---
 title: Data Fetching
-date: 2024-09-12 00:00:01
+date: 2024-09-13 00:00:01
 categories:
 - Next
 tag:
