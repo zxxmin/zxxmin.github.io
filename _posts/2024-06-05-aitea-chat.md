@@ -83,3 +83,10 @@ this.cInput.addEventListener('keydwon', (e) => {
 # 결과
 keypress 이벤트로 변경하였고, 변경한 결과 이슈가 사라졌다. IME Keycode에 대해서 인지하게 되었고, 한글과 영어의 차이점도 
 인지하게 되어서 이벤트를 줄 때 생각을 해보고 이벤트를 사용해야겠다고 생각했다.
+
+**참고한 블로그**
+- [onKeyUp, onKeyDown 한글 입력 시 두번 실행되는 오류](https://4sii.tistory.com/473)
+- [keyCode 229가 뜰 때](https://circus7.tistory.com/6)
+- [keydown 이벤트 한글 중복 입력 현상](https://kwangsunny.tistory.com/33)
+- [JavaScript Events Handlers](https://levelup.gitconnected.com/javascript-events-handlers-keyboard-and-load-events-1b3e46a6b0c3)
+- [[React] onKeyDown 사용으로 인한 오류](https://velog.io/@wjddma1202/React-onKeyDown-%EC%82%AC%EC%9A%A9%EC%9C%BC%EB%A1%9C-%EC%9D%B8%ED%95%9C-%EC%98%A4%EB%A5%98-a86wxxqj)
