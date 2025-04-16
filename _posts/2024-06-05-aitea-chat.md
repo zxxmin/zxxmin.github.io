@@ -9,10 +9,10 @@ tag:
 - AI 도움쌤
 ---
 
-# 문제
+# 개요
 - 특정 컴퓨터에서 채팅 작성 후 전송 버튼을 클릭 시에는 이상이 없지만, **엔터키를 눌렀을 때 채팅이 2개씩 보내지고 있는 이슈** 발견.
 
-# 원인
+# 분석
 - 윈도우 체제의 환경에서는 발생하지 않았고, 맥OS 체제의 환경에서만 이슈 발견.
 - 클릭 이벤트에는 이상이 없으므로, 키보드 이벤트에 문제가 있다고 판단.
 
@@ -48,12 +48,11 @@ Mac OS 에서는 특정 상황에서 composing 상태가 지속되는 동안에�
 - [[Web] IME keyCode 229 Issue](https://minjung-jeon.github.io/IME-keyCode-229-issue/)
 - [[javascript] keycode, code 값 찾기](https://korearaogong.tistory.com/32)
 
-# 방법
+# 해결 방법
 방법은 크게 2가지
 - keydown 이벤트를 변경
 - isComposing 속성에 대한 조건문을 추가
 
-# 해결
 ## 해결 1.
 - keydown 이벤트를 **keypress 이벤트로 변경**
 

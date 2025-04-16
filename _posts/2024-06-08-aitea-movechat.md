@@ -45,7 +45,7 @@ init() {
 처음에는 이벤트가 전달되는 이벤트 버블링 현상인줄 알고 클릭 이벤트마다 `e.stopPropagation()`을 추가했지만, 
 변동은 일어나지 않았다.
 
-> stopPropagation() → 이벤트가 부모 요소로 전파되는 것을 막는다.
+> stopPropagation() → 이벤트가 부모 요소로 전파되는 것을 막는다.<br/>
 > preventDefault() → 이벤트의 기본 동작 (ex. 폼 제출, 링크 클릭 등)을 막는다.
 
 # 방법
