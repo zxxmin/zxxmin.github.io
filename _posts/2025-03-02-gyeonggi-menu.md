@@ -71,13 +71,39 @@ Catch-all Segments [...폴더이름] 으로 사용하면 하위의 모든 세그
 app/shop/a 이거나 app/shop/a/b 처럼 경로에 **세그먼트가 여러개 일 때 [폴더이름] 하위의 page.tsx가 보여진다.**
 
 # 개요 2.
-- 
+- 위 방법대로 app 폴더 하위에 동적 폴더를 생성했더니, **URL을 임의로 작성을 해도 페이지가 노출**되고 있음. 
 
 # 분석 2.
--
+- 동적 폴더가 있으면 프레임워크에서 정적으로 생성된 폴더의 경로를 제외하고 다른 경로는 모두 동적 경로의 페이지를 노출해주고 있기 때문에, 
+  임의로 URL을 작성하면 **정적으로 설정된 폴더의 이름과 맞지 않아서** 동적 폴더로 생성된 페이지를 노출.
 
 # 해결 방법
--
+- 동적 폴더의 page.tsx 에서 설정된 메뉴를 확인하는 API 호출 후 **설정된 URL이 없으면 404 페이지**로 보일 수 있게 처리.
+
+```javascript
+export default async function page({ params }: { params: PageParams }) {
+  const decodedId = `/${decodeURIComponent(params.subId)}`;
+
+  try {
+    const { data } = await axios.get(`${process.env.NEXT_PUBLIC_MENU_LIST_URL}/api/v1/common/menu/list`);
+    const transformedMenu = transformMenu(data);
+    const matchedItem = findMenuItemByHref(transformedMenu, decodedId);
+
+    if (!matchedItem) {
+      notFound();
+    }
+
+    return <BoardCommonPage url={decodedId} />;
+  } catch (error) {
+    console.error('Error:', error);
+    notFound();
+  }
+}
+```
 
 # 결과
-- 
+- 사용자가 관리자 페이지에서 메뉴를 추가하면, 이상없이 새로운 메뉴가 생기는 것을 확인.
+
+Dynamic Routes가 이렇게 범용적으로 사용할 수 있는지 몰랐다. 처음엔 Catch-all Segments 방법을 사용해야겠다고 생각을 했는데 
+글쓰기 페이지나 상세보기 페이지 같은 폴더들을 같이 사용해야해서 Dynamic Routes를 사용하게 되었다.  
+GNB 메뉴 추가로 인해서 Dynamic Routes와 Catch-all Segments를 공부하게 되어 좋았다.
