@@ -1,6 +1,6 @@
 ---
 title: 다국어 번역기 - 구글 번역 API
-date: 2025-05-20 00:00:01
+date: 2025-04-05 00:00:01
 categories:
   - React
   - ETC
