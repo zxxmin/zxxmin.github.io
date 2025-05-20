@@ -1,5 +1,5 @@
 ---
-title: Application error a client-side exception has occurred (see the browser console for more information) 오류
+title: 🚫 Application error a client-side exception has occurred (see the browser console for more information) 오류
 date: 2025-05-20 00:00:01
 categories:
   - 트러블슈팅
