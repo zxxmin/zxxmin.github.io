@@ -3,10 +3,10 @@ title: 성격 유형 검사하기
 date: 2024-07-01 00:00:01
 permalink: /codingTest/118666
 categories:
-  - 알고리즘
+  - Algorithm
   - LV.1
 tag:
-  - 알고리즘
+  - Algorithm
   - LV.1
 ---
 

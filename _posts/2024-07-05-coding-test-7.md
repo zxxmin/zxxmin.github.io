@@ -3,10 +3,10 @@ title: 신규 아이디 추천
 date: 2024-07-05 00:00:01
 permalink: /codingTest/72410
 categories:
-  - 알고리즘
+  - Algorithm
   - LV.1
 tag:
-  - 알고리즘
+  - Algorithm
   - LV.1
 ---
 

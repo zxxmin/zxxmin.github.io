@@ -3,10 +3,10 @@ title: 이진 변환 반복하기
 date: 2024-07-02 00:00:01
 permalink: /codingTest/70129
 categories:
-  - 알고리즘
+  - Algorithm
   - LV.2
 tag:
-  - 알고리즘
+  - Algorithm
   - LV.2
 ---
 

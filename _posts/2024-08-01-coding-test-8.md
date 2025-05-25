@@ -3,10 +3,10 @@ title: 신고 결과 받기
 date: 2024-08-01 00:00:01
 permalink: /codingTest/92334
 categories:
-  - 알고리즘
+  - Algorithm
   - LV.1
 tag:
-  - 알고리즘
+  - Algorithm
   - LV.1
 ---
 

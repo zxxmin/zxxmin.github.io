@@ -3,10 +3,10 @@ title: 문자열 바꿔서 찾기
 date: 2024-06-19 00:00:02
 permalink: /codingTest/181864
 categories:
-  - 알고리즘
+  - Algorithm
   - LV.0
 tag:
-  - 알고리즘
+  - Algorithm
   - LV.0
 ---
 

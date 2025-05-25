@@ -3,10 +3,10 @@ title: 숫자 문자열과 단어
 date: 2024-06-19 00:00:01
 permalink: /codingTest/81301
 categories:
-  - 알고리즘
+  - Algorithm
   - LV.1
 tag:
-  - 알고리즘
+  - Algorithm
   - LV.1
 ---
 

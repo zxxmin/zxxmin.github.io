@@ -3,10 +3,10 @@ title: 옹알이(1)
 date: 2024-07-03 00:00:01
 permalink: /codingTest/120956
 categories:
-  - 알고리즘
+  - Algorithm
   - LV.0
 tag:
-  - 알고리즘
+  - Algorithm
   - LV.0
 ---
 

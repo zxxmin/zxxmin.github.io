@@ -3,10 +3,10 @@ title: 로또의 최고 순위와 최저 순위
 date: 2024-08-09 00:00:01
 permalink: /codingTest/77484
 categories:
-  - 알고리즘
+  - Algorithm
   - LV.1
 tag:
-  - 알고리즘
+  - Algorithm
   - LV.1
 ---
 
