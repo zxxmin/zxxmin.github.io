@@ -1,6 +1,6 @@
 ---
 title: 비밀지도
-date: 2024-06-19 00:00:02
+date: 2024-06-25 00:00:01
 permalink: /codingTest/17681
 categories:
   - 알고리즘
