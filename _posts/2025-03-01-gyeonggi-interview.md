@@ -1,6 +1,7 @@
 ---
 title: ⏰ 예약 불가 시간대에 접근할 수 있는 이슈
 date: 2025-03-01 00:00:01
+permalink: /gyeonggi/interview
 categories:
 - 트러블슈팅
 - 꿈it(잇)다
