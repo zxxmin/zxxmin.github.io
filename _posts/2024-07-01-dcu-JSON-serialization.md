@@ -1,6 +1,7 @@
 ---
 title: 🔛 JSON 직렬화
 date: 2024-07-01 00:00:02
+permalink: /dcu/jsonSerialization
 categories:
 - 트러블슈팅
 - 다채움

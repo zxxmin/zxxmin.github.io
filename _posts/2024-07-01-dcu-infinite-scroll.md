@@ -1,6 +1,7 @@
 ---
 title: ♾️ 무한 스크롤 (Infinite Scroll)
 date: 2024-07-01 00:00:01
+permalink: /dcu/infiniteScroll
 categories:
 - 트러블슈팅
 - 다채움

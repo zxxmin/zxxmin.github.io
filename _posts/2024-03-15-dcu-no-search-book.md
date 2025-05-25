@@ -1,6 +1,7 @@
 ---
 title: 🖥️ 책 검색이 안되는 이슈
 date: 2024-03-15 00:00:01
+permalink: /dcu/noSearchBook
 categories:
 - 트러블슈팅
 - 다채움

@@ -1,6 +1,7 @@
 ---
 title: 🍎 맥OS의 Keyboard Event
 date: 2024-06-05 00:00:01
+permalink: /aitea/keyevent
 categories:
 - 트러블슈팅
 - AI 도움쌤

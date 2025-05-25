@@ -1,6 +1,7 @@
 ---
 title: 🚫 Application error a client-side exception has occurred (see the browser console for more information) 오류
 date: 2025-05-20 00:00:01
+permalink: /gyeonggi/loginError
 categories:
   - 트러블슈팅
   - 꿈it(잇)다
