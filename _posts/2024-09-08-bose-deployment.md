@@ -199,6 +199,8 @@ PUBLIC_URL=/sidepj_bose
 그래도 이제 해결할 수 있다는 것을 알게 되었고, Github Actions 도 사용하는 방법을 알 수 있어서 뿌듯했다.<br/>
 역시 힘든 삽질 후에 먹는 밥이 꿀맛
 
+> [https://zxxmin.github.io/sidepj_bose/](https://zxxmin.github.io/sidepj_bose/)
+
 [참고 블로그 - React GitHub Page에 배포하기](https://velog.io/@bami/React-GitHub-Pages에-배포하기)<br/>
 [참고 블로그 - GitHub Pages 배포하기 with React](https://velog.io/@leehy0782/GitHub-Pages-배포하기-with-React)<br/>
 [참고 블로그 - React Github page 배포 내가 해냄](https://i-did-it.tistory.com/75)
