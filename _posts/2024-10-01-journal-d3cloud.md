@@ -141,14 +141,14 @@ useEffect(() => {
             return { text: d, size: 10 + Math.random() * 90, color: randomColor() };
         });
 
-	  cloud()
-		    .size([width, height])
-		    .words(words)
-		    .padding(5)
-		    .rotate(() => Math.floor(Math.random() * 2) * 90)
-		    .fontSize(d => d.size)
-		    .on("end", draw)
-		    .start();
+        cloud()
+            .size([width, height])
+            .words(words)
+            .padding(5)
+            .rotate(() => Math.floor(Math.random() * 2) * 90)
+            .fontSize(d => d.size)
+            .on("end", draw)
+            .start();
 
     function draw(words) {
         const svg = d3.select("#word-cloud")
@@ -178,9 +178,9 @@ useEffect 상단에 remove 추가
 
 ```javascript
 useEffect(() => {
-		d3.select("#word-cloud").selectAll("svg").remove();
-		
-		...
+    d3.select("#word-cloud").selectAll("svg").remove();
+    
+    // ...
 		
 })
 

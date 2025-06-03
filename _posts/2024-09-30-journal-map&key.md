@@ -1,6 +1,6 @@
 ---
 title: map과 key
-date: 2024-10-03 00:00:01
+date: 2024-09-30 00:00:01
 permalink: /toy/journal/map&key
 categories:
   - Toy project
