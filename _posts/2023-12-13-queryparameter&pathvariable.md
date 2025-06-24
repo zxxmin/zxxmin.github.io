@@ -4,10 +4,8 @@ date: 2023-12-13 00:00:01
 permalink: /cs/query&path
 categories:
 - CS 지식
-- ETC
 tag:
 - CS 지식
-- ETC
 ---
 
 URI, URL, URN에 이어서 URL의 Query Parameter과 Path Variabled를 사용하는 방법을 작성.

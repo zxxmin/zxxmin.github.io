@@ -3,10 +3,8 @@ title: 🍪 Cookie, Web Storage, Token - Web Storage
 date: 2024-02-04 00:00:01
 categories:
   - CS 지식
-  - ETC
 tag:
   - CS 지식
-  - ETC
 ---
 
 # Web Storage

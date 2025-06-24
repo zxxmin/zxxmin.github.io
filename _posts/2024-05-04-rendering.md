@@ -4,10 +4,8 @@ date: 2024-05-04 00:00:01
 permalink: /cs/rendering
 categories:
 - CS 지식
-- ETC
 tag:
 - CS 지식
-- ETC
 ---
 
 지금까지 CS를 공부하면서 내가 생각한 렌더링 과정<br/>

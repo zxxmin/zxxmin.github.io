@@ -3,10 +3,8 @@ title: 🍪 Cookie, Web Storage, Token - Token 저장
 date: 2024-02-05 00:00:01
 categories:
   - CS 지식
-  - ETC
 tag:
   - CS 지식
-  - ETC
 ---
 
 # 안전한 Token 저장

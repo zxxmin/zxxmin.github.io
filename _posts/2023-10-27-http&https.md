@@ -4,10 +4,8 @@ date: 2023-10-27 00:00:01
 permalink: /cs/http&https
 categories:
 - CS 지식
-- ETC
 tag:
 - CS 지식
-- ETC
 ---
 
 # HTTP

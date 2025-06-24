@@ -3,10 +3,8 @@ title: 🍪 Cookie, Web Storage, Token - Cookie
 date: 2024-02-03 00:00:01
 categories:
   - CS 지식
-  - ETC
 tag:
   - CS 지식
-  - ETC
 ---
 
 웹 브라우저에 기본적으로 내장되어있는 데이터 저장소가 있다. 자바스크립트 내장 함수만으로 접근가능한,

@@ -4,10 +4,8 @@ date: 2024-06-05 00:00:01
 permalink: /cs/csp&sop&cors
 categories:
 - CS 지식
-- ETC
 tag:
 - CS 지식
-- ETC
 ---
 
 > 다른 사이트의 스크립트를 접근해 title을 가져오려다가 CORS 이슈가 발생했다.<br/>

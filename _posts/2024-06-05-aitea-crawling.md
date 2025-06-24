@@ -4,10 +4,10 @@ date: 2024-06-05 00:00:02
 permalink: /aitea/crawling
 categories:
 - 트러블슈팅
-- AI도움쌤
+- AI 도움쌤
 tag:
 - 트러블슈팅
-- AI도움쌤
+- AI 도움쌤
 ---
 
 # 개요

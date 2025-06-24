@@ -3,9 +3,9 @@ title: MobaXterm - 개발서버 배포
 date: 2025-06-12 00:00:01
 permalink: /mobaxterm
 categories:
-  - ETC
+  - 실무
 tag:
-  - ETC
+  - 실무
 ---
 
 - https://mobaxterm.mobatek.net/
