@@ -27,6 +27,9 @@ tag:
 4. **Execute command** : Session 초기 접속 시 실행할 명령어 (선택 사항)
 5. **User private key** : 보안 키 사용 시 입력 (선택 사항 - 보안 키가 있을 경우에 작성)
 
+### pem 파일 설정
+![](/assets/images/etc/mobaxterm_5.png)
+
 ## MobaXterm으로 배포
 ![](/assets/images/etc/mobaxterm_3.png)
 
